@@ -56,7 +56,7 @@ defaultContentLanguage = "nl"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2021"
+    copyright = "© Koen Molenaar 2022"
     menuMore = "Laat meer zien"
     readMore = "Lees meer"
     readOtherPosts = "Lees andere posts"
@@ -86,7 +86,7 @@ defaultContentLanguage = "nl"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2021"
+    copyright = "© Koen Molenaar 2022"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -109,7 +109,3 @@ defaultContentLanguage = "nl"
         name = "Contact"
         url = "./#contact.en"
         weight = 2
-
-      
-    
-
