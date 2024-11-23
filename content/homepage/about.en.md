@@ -1,7 +1,6 @@
 +++
 title = "About"
-cover = "homepage/me.jpg"
-layout = "2col-right"
+layout = "1col"
 +++
 
-**Hi there!** My name is Koen Molenaar, I'm a second year bachelor student Business & IT at the University of Twente!
+**Hi there!** I'm Koen Molenaar. I'm a Cybersecurity Msc student at the University of Twente and on this website I post write-ups & blogs about cybersecurity.

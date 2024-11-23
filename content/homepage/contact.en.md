@@ -3,7 +3,8 @@ title = "Contact"
 layout = "post"
 +++
 
-Feel free to reach out to me via these platforms:
+Find me on these platforms:
 
 - [Github](https://github.com/K0enM)
-- [Email](mailto:koen.molenaar26@gmail.nl)
+- [ X / Twitter ](https://x.com/K0en_M)
+- [LinkedIn](https://www.linkedin.com/in/koen-molenaar-780405227/)

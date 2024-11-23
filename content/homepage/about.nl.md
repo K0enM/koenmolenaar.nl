@@ -1,7 +1,6 @@
 +++
 title = "Over"
-cover = "homepage/me.jpg"
-layout = "2col-right"
+layout = "1col"
 +++
 
-**Hoi hoi!** ik ben Koen Molenaar, tweedejaars student Business & IT aan de University of Twente!
+**Hoi hoi!** ik ben Koen Molenaar. Ik studeer Cybersecurity aan de University of Twente en op deze website post ik write-ups & blogs over cybersecurity!

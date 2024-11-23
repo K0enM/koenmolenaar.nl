@@ -1,22 +1,22 @@
 baseURL = "https://www.koenmolenaar.nl"
-languageCode = "nl-nl"
+languageCode = "en-US"
 title = "Koen Molenaar"
 theme = "terminal"
 paginate = "2"
-copyright = "© Koen Molenaar 2021"
-defaultContentLanguage = "nl"
+copyright = "© Koen Molenaar 2024"
+defaultContentLanguage = "en"
 
 [params]
 
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "projects"
+  contentTypeName = "write-ups"
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "green"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 4
 
   # show selector to switch language
   showLanguageSelector = true
@@ -56,7 +56,7 @@ defaultContentLanguage = "nl"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2022"
+    copyright = "© Koen Molenaar 2024"
     menuMore = "Laat meer zien"
     readMore = "Lees meer"
     readOtherPosts = "Lees andere posts"
@@ -75,10 +75,16 @@ defaultContentLanguage = "nl"
         weight = 1
 
       [[languages.nl.menu.main]]
+        identifier = "write-ups.nl"
+        name = "Write-ups"
+        url = "/write-ups"
+        weight = 2
+  
+      [[languages.nl.menu.main]]
         identifier = "contact.nl"
         name = "Contact"
         url = "/#contact.nl"
-        weight = 2
+        weight = 3
 
   [languages.en]
     languageName = "English"
@@ -86,7 +92,7 @@ defaultContentLanguage = "nl"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2022"
+    copyright = "© Koen Molenaar 2024"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -105,7 +111,13 @@ defaultContentLanguage = "nl"
         weight = 1
 
       [[languages.en.menu.main]]
+        identifier = "write-ups.en"
+        name = "Write-ups"
+        url = "/write-ups"
+        weight = 2
+
+      [[languages.en.menu.main]]
         identifier = "contact.en"
         name = "Contact"
         url = "./#contact.en"
-        weight = 2
+        weight = 3
