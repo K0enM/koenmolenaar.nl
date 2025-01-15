@@ -4,7 +4,7 @@ date = "2024-11-21"
 author = "Koen Molenaar"
 cover = ""
 tags = []
-keywords = ["write-ups", "ctf"]
+keywords = ["write-ups", "ctf", "reverse engineering", "malware analysis"]
 description = ""
 showFullContent = false
 +++

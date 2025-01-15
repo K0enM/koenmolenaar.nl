@@ -108,7 +108,7 @@ defaultContentLanguage = "en"
       [[languages.en.menu.main]]
         identifier = "about.en"
         name = "About"
-        url = "./#about.en"
+        url = "/#about.en"
         weight = 1
 
       [[languages.en.menu.main]]
@@ -120,5 +120,12 @@ defaultContentLanguage = "en"
       [[languages.en.menu.main]]
         identifier = "contact.en"
         name = "Contact"
-        url = "./#contact.en"
+        url = "/#contact.en"
         weight = 3
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+

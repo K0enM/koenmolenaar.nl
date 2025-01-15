@@ -2,12 +2,13 @@
 title = "jeFF0Falltrades Sandbox Crackme"
 date = "2024-11-21"
 author = "Koen Molenaar"
-cover = "write-ups/jeff0falltrades-sandbox-crackme/jeFF0Falltrades-logo.jpg"
+cover = ""
 tags = ["write-up", "crackme"]
 keywords = ["write-up", "crackme", "malware analysis"]
 description = "A write-up of jeFF0Falltrades Crackme challenge, which was part of his DIY Malware Analysis Sandbox series."
 showFullContent = false
 draft = false
+toc = true
 +++
 
 # Introduction
