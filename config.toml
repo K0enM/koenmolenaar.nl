@@ -2,7 +2,6 @@ baseURL = "https://www.koenmolenaar.nl"
 languageCode = "en-US"
 title = "Koen Molenaar"
 theme = "terminal"
-paginate = "2"
 copyright = "© Koen Molenaar 2024"
 defaultContentLanguage = "en"
 
@@ -42,6 +41,9 @@ defaultContentLanguage = "en"
   # it's set to `true` by default
   # oneHeadingSize = false
 
+[params.pagination]
+  pagerSize = 2
+  
 
 [params.twitter]
   # set Twitter handles for Twitter cards
