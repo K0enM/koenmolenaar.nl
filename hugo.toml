@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.koenmolenaar.nl"
 languageCode = "en-US"
 title = "Koen Molenaar"
 theme = "terminal"
