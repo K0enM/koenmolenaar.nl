@@ -1,4 +1,4 @@
-baseURL = "https://www.koenmolenaar.nl"
+baseURL = "/"
 languageCode = "en-US"
 title = "Koen Molenaar"
 theme = "terminal"
@@ -59,12 +59,14 @@ defaultContentLanguage = "en"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2024"
+    copyright = "© Koen Molenaar 2025"
     menuMore = "Laat meer zien"
     readMore = "Lees meer"
     readOtherPosts = "Lees andere posts"
     missingContentMessage = "Pagina niet gevonden..."
     missingBackButtonLabel = "Terug naar de homepagina"
+    contentDir = "content/nl"
+    disabled = true
 
     [languages.nl.params.logo]
       logoText = "Koen Molenaar"
@@ -72,21 +74,21 @@ defaultContentLanguage = "en"
 
     [languages.nl.menu]
       [[languages.nl.menu.main]]
-        identifier = "about.nl"
+        identifier = "about"
         name = "Over"
-        url = "/#about.nl"
+        url = "/nl/about"
         weight = 1
 
       [[languages.nl.menu.main]]
-        identifier = "write-ups.nl"
+        identifier = "write-ups"
         name = "Write-ups"
-        url = "/write-ups"
+        url = "/nl/write-ups"
         weight = 2
   
       [[languages.nl.menu.main]]
-        identifier = "contact.nl"
+        identifier = "contact"
         name = "Contact"
-        url = "/#contact.nl"
+        url = "/nl/contact"
         weight = 3
 
   [languages.en]
@@ -95,12 +97,14 @@ defaultContentLanguage = "en"
     subtitle = "Koen Molenaar's Website"
     owner = "Koen Molenaar"
     keywords = ""
-    copyright = "© Koen Molenaar 2024"
+    copyright = "© Koen Molenaar 2025"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     missingContentMessage = "Page not found..."
     missingBackButtonLabel = "Back to home page"
+    contentDir = "content/en"
+    disabled = false
 
     [languages.en.params.logo]
       logoText = "Koen Molenaar"
@@ -108,21 +112,21 @@ defaultContentLanguage = "en"
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about.en"
+        identifier = "about"
         name = "About"
-        url = "/#about.en"
+        pageRef = "/about"
         weight = 1
 
       [[languages.en.menu.main]]
-        identifier = "write-ups.en"
+        identifier = "write-ups"
         name = "Write-ups"
-        url = "/write-ups"
+        pageRef = "/write-ups"
         weight = 2
 
       [[languages.en.menu.main]]
-        identifier = "contact.en"
+        identifier = "contact"
         name = "Contact"
-        url = "/#contact.en"
+        pageRef = "/contact"
         weight = 3
 
 [markup]
